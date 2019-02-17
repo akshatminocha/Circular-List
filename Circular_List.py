@@ -12,7 +12,7 @@ class  CircularList:
             return self.List[self.index]
         else:       
             return self.List[self.index]
-        #for handling condition of EOF and starts from beginning after last element of the list        
+            #for handling condition of EOF(end of list) and start from the beginning after last element of the list        
             
 test_cases=int(input())
 for i in range(test_cases):
